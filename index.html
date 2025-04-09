@@ -22,20 +22,36 @@
 
   <style>
     body { font-family: 'Segoe UI', sans-serif; padding: 2rem; background: #f9f9fb; color: #2c3e50; }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1rem; 
+      margin-bottom: 1.8rem;
+    }
     section { background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h1 { font-size: 1.8rem; }
+    header div h1 {
+      margin-bottom: 0.1rem;
+    }
+
+    header div p {
+      margin-top: 0;
+    }
+
     h2 { font-size: 1.5rem; color: #2980b9; }
     h3 { font-size: 1.25rem; margin-bottom: 0.5rem; color: #2d3436; }
     a { color: #2980b9; text-decoration: none; font-weight: 500; }
     a:hover { text-decoration: underline; }
-    img.logo { height: 40px; vertical-align: middle; }
+    img.logo { height: 50px; vertical-align: middle; }
   </style>
 </head>
 <body>
   <header>
     <img src="images/algoboja_logo.png" alt="알고보자 로고" class="logo">
-    <h1>알고보자 콘텐츠 허브</h1>
-    <p>재테크 정보, 카드 혜택, 정부 정책을 한곳에 정리한 허브입니다.</p>
+    <div>
+      <h1>알고보자 콘텐츠 허브</h1>
+      <p>재테크 정보, 카드 혜택, 정부 정책을 한곳에 정리한 허브입니다.</p>
+    </div>
   </header>
 
   <main>
